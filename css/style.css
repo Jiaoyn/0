@@ -4,3 +4,24 @@ body {
 	text-align: center;
 	font-family: Arial;
 }
+
+.container {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.belt {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px){
+	.container {
+		width: 700px;
+	}
+
+	.belt {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
